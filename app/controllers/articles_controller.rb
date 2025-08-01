@@ -23,7 +23,7 @@ class ArticlesController < ApplicationController
 
     def edit
     @article = Article.find(params[:id])
-  end
+    end
 
   def update
     @article = Article.find(params[:id])
@@ -40,9 +40,9 @@ class ArticlesController < ApplicationController
     @article.destroy
 
     redirect_to root_path, status: :see_other
-  end 
+  end
   private
     def article_params
-      params.expect(article: [:title, :body])
+      params.expect(article: [ :title, :body ])
     end
 end
