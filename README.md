@@ -11,6 +11,13 @@ This project was created as a practice app to explore Rails concepts such as:
 - Using Tailwind CSS for styling
 
 ---
+## Demo
+You can check out the live version of the blog here:
+
+[https://blog-project-rails-gmza.onrender.com]
+
+---
+
 
 ## Features
 
@@ -29,3 +36,4 @@ This project was created as a practice app to explore Rails concepts such as:
 - **CSS**: Tailwind CSS (via `tailwindcss-rails`)
 
 ---
+

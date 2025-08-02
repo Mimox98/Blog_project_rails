@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
-#tailwind
+# tailwind
 gem "tailwindcss-rails"
 # Use sqlite3 as the database for Active Record in development and test
 group :development, :test do
