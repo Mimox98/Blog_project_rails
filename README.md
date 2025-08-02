@@ -18,7 +18,6 @@ You can check out the live version of the blog here:
 
 ---
 
-
 ## Features
 
 - Create, edit, update, and delete articles
