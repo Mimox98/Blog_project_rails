@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails 8 Blog Project
 
-Things you may want to cover:
+A simple blog application built with **Ruby on Rails 8** and **Tailwind CSS**.  
+This project was created as a practice app to explore Rails concepts such as:
 
-* Ruby version
+- RESTful routes
+- CRUD functionality (Create, Read, Update, Delete)
+- MVC architecture
+- Using Tailwind CSS for styling
 
-* System dependencies
+---
 
-* Configuration
+## Features
 
-* Database creation
+- Create, edit, update, and delete articles
+- Display a list of all articles
+- Simple and clean UI with Tailwind CSS
+- Static About page
 
-* Database initialization
+---
 
-* How to run the test suite
+## Tech Stack
 
-* Services (job queues, cache servers, search engines, etc.)
+- **Ruby**: 3.x
+- **Rails**: 8.x
+- **Database**: SQLite (development), can be switched to PostgreSQL
+- **CSS**: Tailwind CSS (via `tailwindcss-rails`)
 
-* Deployment instructions
-
-* ...
+---
