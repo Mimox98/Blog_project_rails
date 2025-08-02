@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
     <title><%= content_for(:title) || "Blog" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,7 +23,10 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body style="background-image: url('<%= asset_path('your-background.jpg') %>'); background-size: cover; background-position: center;">
+    <%= render "shared/navbar" %>
+    <main class="min-h-screen flex flex-col justify-start px-5">
+      <%= yield %>
+    </main>
   </body>
 </html>
