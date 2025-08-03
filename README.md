@@ -47,7 +47,7 @@ Follow these steps to run the project locally:
 
 - **Ruby**: 3.x
 - **Rails**: 8.x
-- **Database**: SQLite (development), can be switched to PostgreSQL
+- **Database**: SQLite (development), PostgreSQL (production)
 - **CSS**: Tailwind CSS (via `tailwindcss-rails`)
 
 ---
