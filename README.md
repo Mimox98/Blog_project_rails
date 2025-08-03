@@ -25,9 +25,12 @@ Follow these steps to run the project locally:
    git clone https://github.com/Mimox98/Blog_project_rails.git
    cd Blog_project_rails
 
-2. bundle install
-3. rails db:migrate
-4. rails server
+2. ```bash
+   bundle install
+3. ```bash
+   rails db:migrate
+4. ```bash
+   rails server
 5. open the server on your broweser: http://localhost:3000 
 ---
 
