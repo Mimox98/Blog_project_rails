@@ -18,6 +18,12 @@ You can check out the live version of the blog here: (Please note, that the data
 
 ## For local deployment:
 
+## Prerequisites
+- Ruby (see `.ruby-version`)
+- Bundler (`gem install bundler`)
+- SQLite (used for development and test environments; usually included with Rails)
+
+
 Follow these steps to run the project locally:
 
 1. **Clone the repository:**
